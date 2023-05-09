@@ -3,7 +3,7 @@ $age = 18;
 $response = null;
 
 if(!is_int($age)){
-    $response = "ERROR age not an integer";
+    $response = "Y a un problème";
 }elseif($age < 18){
     $response = "Je suis mineur.";
 }else{
