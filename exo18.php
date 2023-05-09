@@ -1,10 +1,9 @@
 <?php
 
-function recursive($n) {
-    if ($n === 0) {
-        return 1;
+function recursive(int $n,int $m) {
+    if($m === 0){
+        return 0;
     }
-    return $n * recursive($n-1);
+    return $n + recursive($n,$m-1);
 }
-
-echo recursive(5);
+echo recursive(4,5);
