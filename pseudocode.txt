@@ -1,0 +1,4 @@
+TAN QUE (taille de $liste < nombre a afficher){
+    si pas diviser autre que par lui ou 1
+        on ajout a $liste
+}
