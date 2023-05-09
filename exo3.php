@@ -8,11 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
     <?php while($x <= 50) : ?>
-        <span><?= $x; ?>, </span>
+        <p><?= $x; ?></p>
         <?php $x += 1 ?>
     <?php endwhile; ?>
-    </p>
 </body>
 </html>
