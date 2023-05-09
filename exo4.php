@@ -1,8 +1,8 @@
 <?php
-$age = 18;
+$age = -5;
 $response = null;
 
-if(!is_int($age)){
+if(!is_int($age) || ($age < 0)){
     $response = "Y a un problème";
 }elseif($age < 18){
     $response = "Je suis mineur.";
