@@ -12,6 +12,8 @@
         <input type="text" id="name" name="name">
         <input type="submit">
     </form>
+    <?php if(isset($_GET['name'])): ?>
     <?= $_GET['name']; ?>
+    <?php endif ?>
 </body>
 </html>
