@@ -1,1 +1,2 @@
-<?= "hello world !!";
+<?php
+header("location:exo3.php");
