@@ -1,5 +1,5 @@
 <?php
-function prems(){
+function prems
     echo "Ce n'est pas ma première fonction.";
 }
 prems();
