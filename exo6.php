@@ -1,1 +1,0 @@
-<?= strlen("Ceci est une chaîne de caractère."); ?>

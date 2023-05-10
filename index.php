@@ -1,2 +1,2 @@
 <?php
-header("location:exo4.php");
+header("location:exo20.php");
