@@ -1,0 +1,38 @@
+html,
+body{
+    margin:0;
+    padding:0;
+}
+
+header,
+footer{
+    background-color:cornflowerblue;
+    color: white;
+}
+
+h1,
+h2{
+    margin:0;
+    font-style: italic;
+}
+
+h1{
+    font-size: 2.5em;
+    padding-left: 20px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+section{
+    margin-left: 20px;
+}
+
+div{
+    margin-top:20px;
+}
