@@ -1,2 +1,5 @@
-<?php
-header("location:exo20.php");
+<?php require 'header.php'; ?>
+
+<?php include 'exo20.php'; ?>
+
+<?php require 'footer.php'; ?>
